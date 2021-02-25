@@ -1,0 +1,134 @@
+.app {
+  font-family: FreightSans Pro;
+
+  background: $purple-10;
+}
+
+.app__body {
+  background: #ffffff;
+  border-radius: 0px 0px 120px 0px;
+
+  padding-left: 114px;
+  padding-right: 131px;
+  padding-top: 28px;
+}
+
+.app__header-text {
+  color: $purple-40;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.app__page-text {
+  color: $purple-60;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 52px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.form-user {
+  margin-top: 44px;
+}
+
+.form-user__info {
+  display: flex;
+  color: $black-75;
+  max-width: 398px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0.0001em;
+  text-align: left;
+}
+
+.form-user__login-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  color: $black-75;
+  letter-spacing: 0.00015em;
+  font-feature-settings: "pnum" on, "lnum" on, "ordn" on;
+}
+
+.form-user__title {
+  margin-top: 40px;
+  margin-bottom: 26px;
+
+  max-width: 320px;
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 44px;
+
+  font-feature-settings: "pnum" on, "lnum" on, "liga" off;
+  color: $black-87;
+}
+
+.form-user__secure-text {
+  display: flex;
+  color: $black-87;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 32px;
+  text-transform: uppercase;
+  place-items: center;
+
+  padding-top: 40px;
+  padding-bottom: 26px;
+}
+
+.form-user__column-title {
+  display: flex;
+  color: $black-87;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 36px;
+  max-width: 390px;
+
+  padding-top: 40px;
+  padding-bottom: 26px;
+}
+.form-user__toggle-item {
+  display: flex;
+  justify-content: space-between;
+}
+.form-user__toggle-title {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+
+  display: flex;
+  align-items: center;
+  font-feature-settings: "pnum" on, "lnum" on;
+}
+.form-user__btn-actions {
+  display: flex;
+  width: 280px;
+  justify-content: space-between;
+
+  margin-top: 68px;
+  margin-bottom: 100px;
+}
+.align-right {
+  display: flex;
+  flex-flow: row-reverse;
+}
+.hide-radio {
+  display: none !important;
+}
+
+.show-radio {
+  display: flex !important;
+}
